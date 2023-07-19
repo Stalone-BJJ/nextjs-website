@@ -1,5 +1,6 @@
 import ContactForm from "@/components/home/ContactForm";
 import Hero from "@/components/home/Hero";
+import MeetTheTeam from "@/components/home/MeetTheTeam";
 import OurSchool from "@/components/home/OurSchool";
 import UnderHero from "@/components/home/UnderHero";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <UnderHero />
       <OurSchool />
+      <MeetTheTeam />
       <ContactForm />
     </main>
   );
