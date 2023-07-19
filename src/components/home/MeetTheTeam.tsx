@@ -188,7 +188,7 @@ export default function MeetTheTeam() {
         src="/cheryl.jpg"
         width={120}
       />
-      <h3 className="text-lg text-center">Coach Aaron Smithies</h3>
+      <h3 className="text-lg text-center">Coach Cheryl Brassington</h3>
       <h4>3rd Degree Purple Belt</h4>
       <p className="text-sm m-2">
         Another current student of Professor Stalone, with over 6 years of
