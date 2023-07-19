@@ -19,9 +19,8 @@ export default function UnderHero() {
         <span className="italic text-red-600">FOR EVERYONE</span>.
       </h2>
       <p className="text-center">
-        Getting started at Stalone BJJ Academy is easy
-        <span className="text-red-600">.</span> Book your free trial class today
-        <span className="text-red-600">.</span>
+        Getting started at Stalone BJJ Academy is easy. Book your free trial
+        class today.
       </p>
       <Button
         className="mt-4"

@@ -3,6 +3,7 @@ import Hero from "@/components/home/Hero";
 import MeetTheTeam from "@/components/home/MeetTheTeam";
 import OurSchool from "@/components/home/OurSchool";
 import UnderHero from "@/components/home/UnderHero";
+import WhatWeOffer from "@/components/home/WhatWeOffer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <UnderHero />
       <OurSchool />
       <MeetTheTeam />
+      <WhatWeOffer />
       <ContactForm />
     </main>
   );
