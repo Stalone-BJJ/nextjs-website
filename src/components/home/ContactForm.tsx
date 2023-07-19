@@ -70,7 +70,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="px-8 py-4 w-full">
+    <div className="px-8 py-4 w-full" id="contact-form">
       <h2 className="text-2xl font-bold text-center">CONTACT US</h2>
       {!showSuccessMessage ? (
         <Form {...form}>

@@ -13,13 +13,13 @@ export default function Nav() {
       <div className="p-2 bg-red-600 flex items-center w-full justify-between flex-wrap">
         <span className="flex text-white text-sm">
           <Image src="/phone.svg" alt="Telephone icon" width={20} height={20} />
-          <a className="mx-2" href="tel:07540586726">
+          <a className="mx-2 font-bold" href="tel:07540586726">
             07540 586726
           </a>
         </span>
         <span className="flex text-white text-sm">
           <Image src="/email.svg" alt="Email icon" width={20} height={20} />
-          <a className="mx-2" href="mailto: contact@stalonebjj.co.uk">
+          <a className="mx-2 font-bold" href="mailto: contact@stalonebjj.co.uk">
             contact@stalonebjj.co.uk
           </a>
         </span>

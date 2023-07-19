@@ -1,9 +1,19 @@
+"use client";
+
 import { Button } from "../ui/button";
 
 export default function UnderHero() {
+  const scrollToContactForm = () => {
+    const element = document.getElementById("contact-form");
+
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  };
+
   return (
-    <div className="border-y-2 border-red-600 text-white w-full px-4">
-      <h2 className="mx-auto my-2 text-2xl font-bold text-center">
+    <div className="border-y-2 border-red-600 text-white w-full p-4 flex flex-col items-center">
+      <h2 className="mx-auto text-2xl font-bold text-center">
         JIU<span className="text-red-600">-</span>JITSU
         <br />
         <span className="italic text-red-600">FOR EVERYONE</span>.
@@ -13,11 +23,13 @@ export default function UnderHero() {
         <span className="text-red-600">.</span> Book your free trial class today
         <span className="text-red-600">.</span>
       </p>
-      <div className="flex">
-        <Button className="my-4 mx-auto" variant="secondary">
-          BOOK YOUR FREE TRIAL
-        </Button>
-      </div>
+      <Button
+        className="mt-4"
+        variant="secondary"
+        onClick={scrollToContactForm}
+      >
+        BOOK YOUR FREE TRIAL
+      </Button>
     </div>
   );
 }
