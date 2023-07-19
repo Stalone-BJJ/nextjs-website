@@ -24,7 +24,7 @@ export default function Nav() {
           </a>
         </span>
       </div>
-      <nav className="flex items-center justify-between flex-wrap bg-gray-950 p-4 border-b-2 border-red-600">
+      <nav className="flex items-center justify-between flex-wrap bg-gray-900 p-4 border-b-2 border-red-600">
         <div className="flex items-center flex-shrink-0 text-white">
           <a
             className={`font-semibold text-xl tracking-tight ${
