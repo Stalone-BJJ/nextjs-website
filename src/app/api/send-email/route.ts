@@ -21,29 +21,29 @@ export async function POST(request: Request) {
       info,
     }: FormSubmission = await request.json();
 
-    // await sendgrid.send({
-    //   from: "contact@stalonebjj.co.uk",
-    //   html: `
-    //     <h1>Professor Stalone</h1>
-    //     <p>${name} would like to join for the ${selectedClass} trial at your next suitable availability.</p>
-    //     <p>Here is their form information:</p>
-    //     <p>
-    //       Name: ${name}
-    //       <br />
-    //       Email: ${email}
-    //       <br />
-    //       Phone: ${number}
-    //       <br />
-    //       Class: ${selectedClass}
-    //       <br />
-    //       Message: ${info}
-    //     </p>
-    //     <p>You can reply to this email directly to contact them.</p>
-    //   `,
-    //   replyTo: email,
-    //   subject: `Class Trial Request ${new Date().toLocaleDateString()}`,
-    //   to: "stalonebjjacademy@gmail.com",
-    // });
+    await sendgrid.send({
+      from: "contact@stalonebjj.co.uk",
+      html: `
+        <h1>Professor Stalone</h1>
+        <p>${name} would like to join for the ${selectedClass} trial at your next suitable availability.</p>
+        <p>Here is their form information:</p>
+        <p>
+          Name: ${name}
+          <br />
+          Email: ${email}
+          <br />
+          Phone: ${number}
+          <br />
+          Class: ${selectedClass}
+          <br />
+          Message: ${info}
+        </p>
+        <p>You can reply to this email directly to contact them.</p>
+      `,
+      replyTo: email,
+      subject: `Class Trial Request ${new Date().toLocaleDateString()}`,
+      to: "stalonebjjacademy@gmail.com",
+    });
 
     await sendgrid.send({
       from: "contact@stalonebjj.co.uk",
