@@ -11,8 +11,8 @@ export default function Home() {
       <Hero />
       <UnderHero />
       <OurSchool />
-      <MeetTheTeam />
       <WhatWeOffer />
+      <MeetTheTeam />
       <ContactForm />
     </main>
   );
