@@ -121,7 +121,7 @@ export default function MeetTheTeam() {
   ] as const;
 
   return (
-    <div className="p-4 border-b-2 border-red-600 w-full flex flex-col items-center">
+    <section className="p-4 border-b-2 border-red-600 w-full flex flex-col items-center">
       <h2 className="text-white text-2xl font-bold">MEET THE TEAM</h2>
       {professors.map((professor) => (
         <Card
@@ -132,6 +132,6 @@ export default function MeetTheTeam() {
           src={professor.src}
         />
       ))}
-    </div>
+    </section>
   );
 }

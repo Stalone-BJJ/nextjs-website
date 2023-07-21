@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function OurSchool() {
   return (
-    <div className="px-4 pt-4 pt-2 border-b-2 border-red-600 flex flex-col items-center">
+    <section className="px-4 pt-4 pt-2 border-b-2 border-red-600 flex flex-col items-center">
       <div className="flex flex-col items-center">
         <h3 className="text-2xl font-bold text-white">OUR SCHOOL</h3>
       </div>
@@ -22,6 +22,6 @@ export default function OurSchool() {
         src="/chorley-school.svg"
         width={120}
       />
-    </div>
+    </section>
   );
 }

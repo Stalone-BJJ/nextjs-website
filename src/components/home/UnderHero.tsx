@@ -12,7 +12,7 @@ export default function UnderHero() {
   };
 
   return (
-    <div className="border-y-2 border-red-600 text-white w-full p-4 flex flex-col items-center">
+    <section className="border-y-2 border-red-600 text-white w-full p-4 flex flex-col items-center">
       <h2 className="mx-auto text-2xl font-bold text-center">
         JIU<span className="text-red-600">-</span>JITSU
         <br />
@@ -29,6 +29,6 @@ export default function UnderHero() {
       >
         BOOK YOUR FREE TRIAL
       </Button>
-    </div>
+    </section>
   );
 }
