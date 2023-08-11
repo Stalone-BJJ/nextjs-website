@@ -67,6 +67,14 @@ export default function Nav() {
                 About Us
               </a>
               <a
+                href="/programs"
+                className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
+                  pathName === "/programs" ? "text-red-600" : ""
+                }`}
+              >
+                Programs
+              </a>
+              <a
                 href="/history"
                 className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
                   pathName === "/history" ? "text-red-600" : ""
