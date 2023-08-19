@@ -74,6 +74,14 @@ export default function Nav() {
               >
                 Programs
               </a>
+              {/* <a
+                href="/values"
+                className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
+                  pathName === "/values" ? "text-red-600" : ""
+                }`}
+              >
+                Values
+              </a> */}
               <a
                 href="/history"
                 className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
@@ -83,20 +91,20 @@ export default function Nav() {
                 History
               </a>
               <a
-                href="/schedule"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
-                  pathName === "/schedule" ? "text-red-600" : ""
-                }`}
-              >
-                Schedule
-              </a>
-              <a
                 href="/gallery"
                 className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
                   pathName === "/gallery" ? "text-red-600" : ""
                 }`}
               >
                 Gallery
+              </a>
+              <a
+                href="/schedule"
+                className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
+                  pathName === "/schedule" ? "text-red-600" : ""
+                }`}
+              >
+                Schedule
               </a>
               <a
                 href="/contact-us"
