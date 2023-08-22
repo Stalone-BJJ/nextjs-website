@@ -14,7 +14,7 @@ export default function UnderHero() {
 
   return (
     <SectionWithImage classNameRef="home-under-hero">
-      <div className="z-10 w-full text-center">
+      <div className="w-full text-center my-8 space-y-4">
         <h2 className="mx-auto text-2xl font-bold">
           JIU<span className="text-red-600">-</span>JITSU
           <br />
