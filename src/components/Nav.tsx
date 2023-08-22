@@ -8,8 +8,10 @@ export default function Nav() {
   const [showMenu, setShowMenu] = useState(false);
   const pathName = usePathname();
 
+  console.log("pathName", pathName);
+
   return (
-    <div className="sticky top-0 z-10">
+    <div className="sticky top-0 z-20">
       <div className="p-2 bg-red-600 flex items-center w-full justify-between flex-wrap">
         <span className="flex text-white text-sm">
           <Image src="/phone.svg" alt="Telephone icon" width={20} height={20} />
@@ -59,41 +61,65 @@ export default function Nav() {
             <div className="text-sm lg:flex-grow"></div>
             <div>
               <a
+                href="/"
+                className={`block mt-4 lg:inline-block lg:mt-0 mr-4 ${
+                  pathName === "/" ? "text-red-600" : "text-white"
+                }`}
+              >
+                Home
+              </a>
+              <a
                 href="/about-us"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
-                  pathName === "/about-us" ? "text-red-600" : ""
+                className={`block mt-4 lg:inline-block lg:mt-0 mr-4 ${
+                  pathName === "/about-us" ? "text-red-600" : "text-white"
                 }`}
               >
                 About Us
               </a>
               <a
+                href="/programs"
+                className={`block mt-4 lg:inline-block lg:mt-0 mr-4 ${
+                  pathName === "/programs" ? "text-red-600" : "text-white"
+                }`}
+              >
+                Programs
+              </a>
+              {/* <a
+                href="/values"
+                className={`block mt-4 lg:inline-block lg:mt-0 mr-4 ${
+                  pathName === "/values" ? "text-red-600" : "text-white"
+                }`}
+              >
+                Values
+              </a> */}
+              <a
                 href="/history"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
-                  pathName === "/history" ? "text-red-600" : ""
+                className={`block mt-4 lg:inline-block lg:mt-0 mr-4 ${
+                  pathName === "/history" ? "text-red-600" : "text-white"
                 }`}
               >
                 History
               </a>
               <a
-                href="/schedule"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
-                  pathName === "/schedule" ? "text-red-600" : ""
-                }`}
-              >
-                Schedule
-              </a>
-              <a
                 href="/gallery"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
-                  pathName === "/gallery" ? "text-red-600" : ""
+                className={`block mt-4 lg:inline-block lg:mt-0 mr-4 ${
+                  pathName === "/gallery" ? "text-red-600" : "text-white"
                 }`}
               >
                 Gallery
               </a>
               <a
+                href="/schedule"
+                className={`block mt-4 lg:inline-block lg:mt-0 mr-4 ${
+                  pathName === "/schedule" ? "text-red-600" : "text-white"
+                }`}
+              >
+                Schedule
+              </a>
+              <a
                 href="/contact-us"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white mr-4 ${
-                  pathName === "/contact" ? "text-red-600" : ""
+                className={`block mt-4 lg:inline-block lg:mt-0 mr-4 ${
+                  pathName === "/contact-us" ? "text-red-600" : "text-white"
                 }`}
               >
                 Contact
