@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhatWeOffer() {
   return (
-    <section className="p-4 w-full border-b-2 border-red-600 flex flex-col items-center">
+    <section className="p-4 w-full border-t-2 border-red-600 flex flex-col items-center">
       <h2 className="font-bold text-2xl mb-4">WHAT WE OFFER</h2>
       <div className="flex w-full mb-2 my-4">
         <div className="w-1/3 flex items-center flex-col">

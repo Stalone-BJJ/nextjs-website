@@ -11,7 +11,7 @@ export default function Nav() {
   console.log("pathName", pathName);
 
   return (
-    <div className="sticky top-0 z-10">
+    <div className="sticky top-0 z-20">
       <div className="p-2 bg-red-600 flex items-center w-full justify-between flex-wrap">
         <span className="flex text-white text-sm">
           <Image src="/phone.svg" alt="Telephone icon" width={20} height={20} />

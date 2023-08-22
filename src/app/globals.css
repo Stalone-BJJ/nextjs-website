@@ -76,7 +76,25 @@
     @apply bg-background text-foreground;
   }
 }
-/* 
-#contact-form {
-  scroll-margin-top: 280px;
-} */
+
+section#section-with-image:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+}
+
+section.home-under-hero:before {
+  background-image: url("/DSC00412.jpg");
+}
+
+section.home-our-school:before {
+  background-image: url("/DSC00827.jpg");
+}
