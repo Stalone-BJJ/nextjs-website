@@ -1,4 +1,4 @@
-import ContactForm from "@/components/home/ContactForm";
+import ContactSection from "@/components/home/ContactSection";
 import Hero from "@/components/home/Hero";
 import MeetTheTeam from "@/components/home/MeetTheTeam";
 import OurSchool from "@/components/home/OurSchool";
@@ -13,7 +13,7 @@ export default function Home() {
       <OurSchool />
       <WhatWeOffer />
       <MeetTheTeam />
-      <ContactForm />
+      <ContactSection />
     </main>
   );
 }

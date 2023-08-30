@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Contact Us - Stalone BJJ - Brazilian Jiu-Jitsu in Chorley, Lancashire",
 };
 
-export default function AboutUs() {
+export default function ContactUs() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Hero />

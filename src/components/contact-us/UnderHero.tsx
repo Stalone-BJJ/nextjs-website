@@ -1,8 +1,13 @@
 import Image from "next/image";
+import ContactForm from "../ContactForm";
 
 export default function UnderHero() {
   return (
     <>
+      <section className="border-t-2 border-red-600 w-full px-8 mb-4">
+        <h2 className="text-center font-bold text-2xl my-4">GET IN TOUCH</h2>
+        <ContactForm />
+      </section>
       <section className="border-t-2 border-red-600 w-full p-8 container mx-auto">
         <div className="space-y-4">
           <h2 className="text-3xl font-bold text-center">LOCATION</h2>
@@ -45,7 +50,3 @@ export default function UnderHero() {
     </>
   );
 }
-
-//  <span className="font-bold text-red-600">
-// Stalone Brazilian Jiu-Jitsu Academy
-// </span>{" "}
