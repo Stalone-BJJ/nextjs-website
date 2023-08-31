@@ -8,7 +8,7 @@ import { useMediaQuery } from "react-responsive";
 export default function Nav() {
   const isMobile = useMediaQuery({ maxWidth: 1023 });
   const [showMenu, setShowMenu] = useState(
-    window !== undefined ? !isMobile : true
+    typeof window !== "undefined" ? !isMobile : true
   );
   const pathName = usePathname();
 
