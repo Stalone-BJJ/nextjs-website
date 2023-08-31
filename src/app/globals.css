@@ -88,7 +88,7 @@ section#section-with-image:before {
   background-size: cover;
   z-index: -1;
   background-repeat: no-repeat;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 section.home-under-hero:before {
@@ -101,4 +101,32 @@ section.home-our-school:before {
 
 section.home-what-we-offer:before {
   background-image: url("/DSC00292.jpg");
+}
+
+section.about-us-under-hero-first:before {
+  background-image: url("/DSC00670.jpg");
+}
+
+section.about-us-under-hero-second:before {
+  background-image: url("/DSC00580.jpg");
+}
+
+section.about-us-under-hero-third:before {
+  background-image: url("/DSC00786.jpg");
+}
+
+section.about-us-under-hero-fourth:before {
+  background-image: url("/DSC03192.jpg");
+}
+
+section.about-us-under-hero-fifth:before {
+  background-image: url("/DSC01199.jpg");
+}
+
+section.about-us-under-hero-sixth:before {
+  background-image: url("/DSC00827.jpg");
+}
+
+section.about-us-under-hero-seventh:before {
+  background-image: url("/DSC00590.jpg");
 }
