@@ -8,7 +8,7 @@ export default function OurSchool() {
         <div className="flex flex-col items-center">
           <h3 className="text-2xl font-bold text-white">OUR SCHOOL</h3>
         </div>
-        <p className="px-2 pt-2 text-md text-white">
+        <p className="px-4 pt-2 text-md text-white text-center">
           Previously{" "}
           <span className="text-red-600 font-bold">Gracie Barra Chorley</span>
           <span className="text-red-600">,</span> we want our school to be a
