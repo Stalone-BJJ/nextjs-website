@@ -104,11 +104,11 @@ section.home-what-we-offer:before {
 }
 
 section.about-us-under-hero-first:before {
-  background-image: url("/DSC00670.jpg");
+  background-image: url("/DSC00012.jpg");
 }
 
 section.about-us-under-hero-second:before {
-  background-image: url("/DSC00580.jpg");
+  background-image: url("/DSC00003.jpg");
 }
 
 section.about-us-under-hero-third:before {
@@ -116,7 +116,7 @@ section.about-us-under-hero-third:before {
 }
 
 section.about-us-under-hero-fourth:before {
-  background-image: url("/DSC03192.jpg");
+  background-image: url("/DSC00007.jpg");
 }
 
 section.about-us-under-hero-fifth:before {
@@ -129,4 +129,12 @@ section.about-us-under-hero-sixth:before {
 
 section.about-us-under-hero-seventh:before {
   background-image: url("/DSC00590.jpg");
+}
+
+section.about-us-under-hero-eighth:before {
+  background-image: url("/DSC00002.jpg");
+}
+
+section.about-us-under-hero-ninth:before {
+  background-image: url("/DSC00005.jpg");
 }

@@ -8,7 +8,7 @@ export default function Hero() {
           alt="Stalone BJJ logo"
           className="object-cover w-full h-full"
           fill
-          src="/professors.jpg"
+          src="/DSC00011.jpg"
         />
       </div>
       <div className="absolute h-36 w-full opacity-50 bg-black"></div>
@@ -20,7 +20,7 @@ export default function Hero() {
           src="/thumbnail_stalone-logo-1.png"
           width={80}
         />
-        <h1 className="text-3xl font-bold text-white mt-2">WHY STALONE BJJ</h1>
+        <h1 className="text-3xl font-bold text-white mt-2">ABOUT US</h1>
       </div>
     </>
   );

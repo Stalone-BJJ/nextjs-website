@@ -1,3 +1,4 @@
+import ContactForm from "../ContactForm";
 import SectionWithImage from "../SectionWithImage";
 
 export default function UnderHero() {
@@ -102,7 +103,7 @@ export default function UnderHero() {
           and odours without detriment to the equipment.
         </p>
       </SectionWithImage>
-      <SectionWithImage classNameRef="about-us-under-hero-seventh">
+      <SectionWithImage classNameRef="about-us-under-hero-eighth">
         <h2 className="text-center font-bold text-xl my-4">
           A SAFE ENVIRONMENT FOR ALL
         </h2>
@@ -112,7 +113,7 @@ export default function UnderHero() {
           personnel on duty during every class.
         </p>
       </SectionWithImage>
-      <SectionWithImage classNameRef="about-us-under-hero-seventh">
+      <SectionWithImage classNameRef="about-us-under-hero-ninth">
         <h2 className="text-center font-bold text-xl my-4">
           MORE THAN 20 YEARS OF EXPERIENCE
         </h2>
@@ -125,6 +126,15 @@ export default function UnderHero() {
           in great hands at Gracie Barra Chorley and Gracie Barra Horwich.
         </p>
       </SectionWithImage>
+      <section
+        className="px-8 py-4 w-full border-t-2 border-red-600"
+        id="contact-form"
+      >
+        <h2 className="text-2xl font-bold text-center my-4">
+          READY TO GET STARTED?
+        </h2>
+        <ContactForm />
+      </section>
     </>
   );
 }
