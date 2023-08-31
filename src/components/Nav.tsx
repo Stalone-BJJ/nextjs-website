@@ -1,14 +1,18 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
+import { useMediaQuery } from "react-responsive";
 
 export default function Nav() {
-  const [showMenu, setShowMenu] = useState(false);
+  const isMobile = useMediaQuery({ maxWidth: 1023 });
+  const [showMenu, setShowMenu] = useState(isMobile ? false : true);
   const pathName = usePathname();
 
-  console.log("pathName", pathName);
+  useEffect(() => {
+    setShowMenu(isMobile ? false : true);
+  }, [isMobile]);
 
   return (
     <div className="sticky top-0 z-20">
