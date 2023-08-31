@@ -5,7 +5,7 @@ export default function UnderHero() {
   return (
     <>
       <section className="border-t-2 border-red-600 w-full p-8">
-        <div className="space-y-4 container sm:w-[80%]">
+        <div className="space-y-4 container lg:w-[80%]">
           <h2 className="text-3xl font-bold text-center">LOCATION</h2>
           <p className="text-sm text-center">
             <span className="font-bold text-red-600">
@@ -31,14 +31,15 @@ export default function UnderHero() {
           </p>
         </div>
       </section>
-      <section className="border-t-2 border-red-600 w-full p-8 hidden md:block">
+      <section className="border-t-2 border-red-600 w-full p-8">
         <div className="container">
-          <div className="flex justify-between">
-            <div className="m-4 w-[45%] flex flex-col items-center">
+          <div className="lg:flex-row flex flex-col gap-x-8">
+            <div className="text-center flex-1">
               <h2 className="text-center font-bold text-2xl my-4">
                 GOOGLE MAPS
               </h2>
               <a
+                className="mx-auto inline-flex"
                 target="_blank"
                 href="https://www.google.com/maps/place/Unit+5,+Stalone+Brazilian+Jiu+Jitsu+Academy,+Matrix+house,+Friday+St,+Chorley+PR6+0AA/@53.654125,-2.6261,17z/data=!4m6!3m5!1s0x487b0c5d34f6f63b:0xc8d758223612b664!8m2!3d53.654125!4d-2.6261!16s%2Fg%2F11dftpyprz"
               >
@@ -50,7 +51,7 @@ export default function UnderHero() {
                 />
               </a>
             </div>
-            <div className="m-4 w-[45%]">
+            <div className="flex-1">
               <h2 className="text-center font-bold text-2xl my-4">
                 GET IN TOUCH
               </h2>
@@ -59,7 +60,7 @@ export default function UnderHero() {
           </div>
         </div>
       </section>
-      <section className="border-t-2 border-red-600 w-full p-8 container md:hidden flex flex-col items-center">
+      {/* <section className="border-t-2 border-red-600 w-full p-8 container md:hidden flex flex-col items-center">
         <h2 className="text-center font-bold text-2xl my-4">GOOGLE MAPS</h2>
         <Image
           alt="Stalone BJJ Map - Link to Google Maps"
@@ -71,7 +72,7 @@ export default function UnderHero() {
       <section className="border-t-2 border-red-600 w-full p-8 container md:hidden">
         <h2 className="text-center font-bold text-2xl my-4">GET IN TOUCH</h2>
         <ContactForm />
-      </section>
+      </section> */}
     </>
   );
 }
