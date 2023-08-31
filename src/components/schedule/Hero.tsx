@@ -12,7 +12,7 @@ export default function Hero() {
         />
       </div>
       <div className="absolute h-36 w-full opacity-50 bg-black"></div>
-      <div className="relative h-36 flex flex-col items-center w-full">
+      <div className="relative h-36 flex flex-col items-center w-full border-b-2 border-red-600">
         <Image
           alt="Stalone BJJ logo"
           className="mt-2"

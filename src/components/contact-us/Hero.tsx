@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <div className="absolute h-36 w-full">
+      <div className="absolute lg:h-72 h-36 w-full">
         <Image
           alt="Stalone BJJ logo"
           className="object-cover w-full h-full"
@@ -11,8 +11,8 @@ export default function Hero() {
           src="/professors.jpg"
         />
       </div>
-      <div className="absolute h-36 w-full opacity-50 bg-black"></div>
-      <div className="relative h-36 flex flex-col items-center w-full">
+      <div className="absolute lg:h-72 h-36 w-full opacity-50 bg-black"></div>
+      <div className="relative lg:h-72 h-36 flex flex-col items-center justify-center w-full">
         <Image
           alt="Stalone BJJ logo"
           className="mt-2"
