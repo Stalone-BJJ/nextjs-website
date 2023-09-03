@@ -18,7 +18,7 @@ export default function Gallery() {
   };
 
   return (
-    <main className="p-4">
+    <div className="container mx-auto p-6">
       <figure data-behold-id="xM3hlt47kIo8RvsODLGZ"></figure>
       <Script
         onReady={onReady}
@@ -26,6 +26,6 @@ export default function Gallery() {
         strategy="afterInteractive"
         type="module"
       />
-    </main>
+    </div>
   );
 }

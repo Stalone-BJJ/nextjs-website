@@ -232,9 +232,9 @@ const Day = ({ day, classes }: DayProps) => {
 
 export default function UnderHero() {
   return (
-    <>
-      <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 mt-10">
+    <div className=" border-t-2 border-red-600 w-full">
+      <div className="container mx-autol">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 mt-10 ">
           {days.map((day, index) => (
             <Day day={index} classes={day} key={index} />
           ))}
@@ -260,6 +260,6 @@ export default function UnderHero() {
           </p>
         </div>
       </section>
-    </>
+    </div>
   );
 }
