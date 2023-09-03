@@ -18,7 +18,7 @@ export default function Gallery() {
   };
 
   return (
-    <div className="container mx-auto my-8">
+    <div className="sm:container mx-auto my-8 p-4 sm:p-0">
       <figure data-behold-id="xM3hlt47kIo8RvsODLGZ"></figure>
       <Script
         onReady={onReady}
