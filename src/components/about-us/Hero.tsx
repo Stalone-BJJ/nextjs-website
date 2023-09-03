@@ -8,7 +8,7 @@ export default function Hero() {
           alt="Stalone BJJ logo"
           className="object-cover w-full h-full"
           fill
-          src="/DSC00011.jpg"
+          src="/DSC00011.webp"
         />
       </div>
       <div className="absolute lg:h-72 h-36 w-full opacity-50 bg-black"></div>
