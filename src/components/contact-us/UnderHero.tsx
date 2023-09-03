@@ -60,19 +60,6 @@ export default function UnderHero() {
           </div>
         </div>
       </section>
-      {/* <section className="border-t-2 border-red-600 w-full p-8 container md:hidden flex flex-col items-center">
-        <h2 className="text-center font-bold text-2xl my-4">GOOGLE MAPS</h2>
-        <Image
-          alt="Stalone BJJ Map - Link to Google Maps"
-          width={500}
-          height={500}
-          src="/map.jpg"
-        />
-      </section>
-      <section className="border-t-2 border-red-600 w-full p-8 container md:hidden">
-        <h2 className="text-center font-bold text-2xl my-4">GET IN TOUCH</h2>
-        <ContactForm />
-      </section> */}
     </>
   );
 }
