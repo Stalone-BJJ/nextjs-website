@@ -5,8 +5,8 @@ export default function UnderHero() {
   return (
     <>
       <section className="border-t-2 border-red-600 w-full p-8">
-        <div className="space-y-4 container lg:w-[80%]">
-          <h2 className="text-3xl font-bold text-center">LOCATION</h2>
+        <div className="space-y-4 sm:container lg:w-[80%]">
+          <h2 className="text-2xl font-bold text-center">LOCATION</h2>
           <p className="text-sm text-center">
             <span className="font-bold text-red-600">
               Stalone Brazilian Jiu-Jitsu Academy
@@ -14,14 +14,22 @@ export default function UnderHero() {
             Chorley is strategically located, offering both convenience and
             accessibility to martial arts enthusiasts. Situated in the heart of
             Chorley, a vibrant town in Lancashire, the facility benefits from
-            its central location. Chorley&apos;s well-developed transportation
-            network ensures easy access for individuals coming from various
-            directions. The facility is within walking distance from the Chorley
-            train station, making it accessible to those arriving by train.
+            its central location.
+          </p>
+          <p className="text-sm text-center">
+            Chorley&apos;s well-developed transportation network ensures easy
+            access for individuals coming from various directions. The facility
+            is within walking distance from the Chorley train station, making it
+            accessible to those arriving by train.
+          </p>
+          <p className="text-sm text-center">
             Additionally, several bus routes connect the town to neighboring
             areas, further enhancing the ease of travel. For those arriving by
             car, ample parking facilities are available nearby, eliminating any
-            worries about parking space. Overall,{" "}
+            worries about parking space.
+          </p>
+          <p className="text-sm text-center">
+            Overall,{" "}
             <span className="font-bold text-red-600">
               Stalone Brazilian Jiu-Jitsu Academy&apos;s
             </span>{" "}
@@ -32,12 +40,16 @@ export default function UnderHero() {
         </div>
       </section>
       <section className="border-t-2 border-red-600 w-full p-8">
-        <div className="container">
+        <div className="sm:container">
           <div className="lg:flex-row flex flex-col gap-x-8">
             <div className="text-center flex-1">
-              <h2 className="text-center font-bold text-2xl my-4">
-                GOOGLE MAPS
+              <h2 className="text-center font-bold text-2xl">
+                WHERE TO FIND US
               </h2>
+              <p className="text-sm text-center my-4">
+                Click on the map below to be taken to Google Maps which will
+                provide more than ample directions to our school.
+              </p>
               <a
                 className="mx-auto inline-flex"
                 target="_blank"
@@ -50,6 +62,9 @@ export default function UnderHero() {
                   src="/map.jpg"
                 />
               </a>
+              <p className="text-xs text-center my-2">
+                Stalone BJJ is not affiliated with Google Maps.
+              </p>
             </div>
             <div className="flex-1">
               <h2 className="text-center font-bold text-2xl my-4">

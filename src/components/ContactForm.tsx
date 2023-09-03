@@ -166,7 +166,11 @@ export default function ContactForm() {
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full" variant="secondary">
+        <Button
+          type="submit"
+          className="w-full border-2 border-red-600"
+          variant="secondary"
+        >
           Submit
         </Button>
       </form>

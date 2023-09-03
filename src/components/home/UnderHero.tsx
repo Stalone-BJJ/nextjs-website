@@ -25,7 +25,7 @@ export default function UnderHero() {
           class today.
         </p>
         <Button
-          className="mt-4"
+          className="mt-4 border-2 border-red-600"
           variant="secondary"
           onClick={scrollToContactForm}
         >

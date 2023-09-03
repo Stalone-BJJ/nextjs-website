@@ -20,7 +20,7 @@ export default function Nav() {
     <div className="sticky top-0 z-20">
       <div className="py-2 bg-red-600 w-full">
         <div className="container mx-auto flex items-center justify-between flex-wrap">
-          <span className="flex text-white text-xs lg:text-sm">
+          <span className="flex text-white text-xs lg:text-sm items-center">
             <Image
               src="/phone.svg"
               alt="Telephone icon"
@@ -31,7 +31,7 @@ export default function Nav() {
               07540 586726
             </a>
           </span>
-          <span className="flex text-white text-xs lg:text-sm">
+          <span className="flex text-white text-xs lg:text-sm items-center">
             <Image src="/email.svg" alt="Email icon" width={20} height={20} />
             <a
               className="mx-2 font-bold"

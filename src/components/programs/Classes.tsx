@@ -4,10 +4,10 @@ export default function Classes() {
   return (
     <>
       <section
-        className="border-t-2 border-red-600 w-full p-8 space-y-4"
+        className="border-t-2 border-red-600 w-full px-8 py-4"
         id="adults-classes"
       >
-        <div className="container mx-auto">
+        <div className="sm:container mx-auto space-y-4">
           <h2 className="text-center font-bold text-2xl">ADULTS</h2>
           <p className="text-sm mb-2">
             <span className="font-bold text-red-600">
@@ -98,17 +98,17 @@ export default function Classes() {
             your goals in a positive and empowering atmosphere.
           </p>
           <div className="flex justify-center w-full">
-            <Button variant="secondary">
+            <Button variant="secondary" className="border-2 border-red-600">
               <a href="/contact-us">BOOK YOUR FREE TRIAL</a>
             </Button>
           </div>
         </div>
       </section>
       <section
-        className="border-t-2 border-red-600 w-full p-8 space-y-4"
+        className="border-t-2 border-red-600 w-full px-8 py-4"
         id="childrens-classes"
       >
-        <div className="container mx-auto">
+        <div className="sm:container mx-auto space-y-4">
           <h2 className="text-center font-bold text-2xl mb-2">
             KIDS AND TEENS
           </h2>
@@ -136,17 +136,17 @@ export default function Classes() {
             self-awareness.
           </p>
           <div className="flex justify-center w-full">
-            <Button variant="secondary">
+            <Button variant="secondary" className="border-2 border-red-600">
               <a href="/contact-us">BOOK YOUR FREE TRIAL</a>
             </Button>
           </div>
         </div>
       </section>
       <section
-        className="border-t-2 border-red-600 w-full p-8 space-y-4"
+        className="border-t-2 border-red-600 w-full px-8 py-4"
         id="private-classes"
       >
-        <div className="container mx-auto">
+        <div className="sm:container mx-auto space-y-4">
           <h2 className="text-center font-bold text-2xl mb-2">
             PRIVATE TRAINING
           </h2>
