@@ -7,7 +7,7 @@ export default function UnderHero() {
       <section className="border-t-2 border-red-600 w-full">
         <div className="space-y-4 my-8 container">
           <h2 className="text-2xl font-bold text-center">LOCATION</h2>
-          <p className="text-sm text-center">
+          <p className="text-sm">
             <span className="font-bold text-red-600">
               Stalone Brazilian Jiu-Jitsu Academy
             </span>{" "}
@@ -16,19 +16,19 @@ export default function UnderHero() {
             Chorley, a vibrant town in Lancashire, the facility benefits from
             its central location.
           </p>
-          <p className="text-sm text-center">
+          <p className="text-sm">
             Chorley&apos;s well-developed transportation network ensures easy
             access for individuals coming from various directions. The facility
             is within walking distance from the Chorley train station, making it
             accessible to those arriving by train.
           </p>
-          <p className="text-sm text-center">
+          <p className="text-sm">
             Additionally, several bus routes connect the town to neighboring
             areas, further enhancing the ease of travel. For those arriving by
             car, ample parking facilities are available nearby, eliminating any
             worries about parking space.
           </p>
-          <p className="text-sm text-center">
+          <p className="text-sm">
             Overall,{" "}
             <span className="font-bold text-red-600">
               Stalone Brazilian Jiu-Jitsu Academy&apos;s
