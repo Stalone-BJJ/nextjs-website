@@ -88,17 +88,57 @@ section#section-with-image:before {
   background-size: cover;
   z-index: -1;
   background-repeat: no-repeat;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 section.home-under-hero:before {
-  background-image: url("/DSC00412.jpg");
+  background-image: url("/DSC00412.webp");
 }
 
 section.home-our-school:before {
-  background-image: url("/DSC00827.jpg");
+  background-image: url("/DSC00827.webp");
 }
 
 section.home-what-we-offer:before {
-  background-image: url("/DSC00292.jpg");
+  background-image: url("/DSC00292.webp");
+}
+
+section.about-us-under-hero-first:before {
+  background-image: url("/DSC00012.webp");
+}
+
+section.about-us-under-hero-second:before {
+  background-image: url("/DSC01109.webp");
+}
+
+section.about-us-under-hero-third:before {
+  background-image: url("/DSC00786.webp");
+}
+
+section.about-us-under-hero-fourth:before {
+  background-image: url("/DSC00007.webp");
+}
+
+section.about-us-under-hero-fifth:before {
+  background-image: url("/DSC01199.webp");
+}
+
+section.about-us-under-hero-sixth:before {
+  background-image: url("/DSC00827.webp");
+}
+
+section.about-us-under-hero-seventh:before {
+  background-image: url("/DSC00590.webp");
+}
+
+section.about-us-under-hero-eighth:before {
+  background-image: url("/DSC00002.webp");
+}
+
+section.about-us-under-hero-ninth:before {
+  background-image: url("/DSC00005.webp");
+}
+
+section.programs-under-hero:before {
+  background-image: url("/DSC01745.webp");
 }

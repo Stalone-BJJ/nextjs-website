@@ -71,7 +71,10 @@ export default function ContactForm() {
 
   return !showSuccessMessage ? (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+      <form
+        onSubmit={form.handleSubmit(onSubmit)}
+        className="space-y-4 container"
+      >
         <FormField
           control={form.control}
           name="class"
@@ -166,14 +169,19 @@ export default function ContactForm() {
             </FormItem>
           )}
         />
-        <Button type="submit" className="w-full" variant="secondary">
+        <Button
+          aria-label="Submit"
+          type="submit"
+          className="w-full border-2 border-red-600"
+          variant="secondary"
+        >
           Submit
         </Button>
       </form>
     </Form>
   ) : (
-    <div className="space-y-2 text-sm">
-      <h3 className="mt-2 text-center text-xl font-bold italic text-red-600">
+    <div className="container space-y-2 text-sm text-center">
+      <h3 className="mt-2 text-xl font-bold italic text-red-600">
         THANK YOU FOR YOUR INTEREST
       </h3>
       <p>
@@ -186,14 +194,12 @@ export default function ContactForm() {
       <p>
         If you still haven&apos;t received an email please contact us directly
         at{" "}
-        <p>
-          <Link
-            className="underline decoration-red-600 decoration-2 hover:text-gray-400"
-            href="mailto:contact@stalonebjj.co.uk"
-          >
-            contact@stalonebjj.co.uk
-          </Link>
-        </p>{" "}
+        <Link
+          className="underline decoration-red-600 decoration-2 hover:text-gray-400"
+          href="mailto:contact@stalonebjj.co.uk"
+        >
+          contact@stalonebjj.co.uk
+        </Link>{" "}
         or you can call us on{" "}
         <Link
           className="underline decoration-red-600 decoration-2 hover:text-gray-400"

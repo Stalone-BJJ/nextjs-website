@@ -25,7 +25,8 @@ export default function UnderHero() {
           class today.
         </p>
         <Button
-          className="mt-4"
+          aria-label="Book your free trial"
+          className="mt-4 border-2 border-red-600"
           variant="secondary"
           onClick={scrollToContactForm}
         >

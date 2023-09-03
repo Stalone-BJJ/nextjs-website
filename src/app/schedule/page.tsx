@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 export default function Schedule() {
   return (
     <main className="flex min-h-screen flex-col items-center">
-      <Hero></Hero>
-      <UnderHero></UnderHero>
+      <Hero />
+      <UnderHero />
     </main>
   );
 }

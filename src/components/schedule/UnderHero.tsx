@@ -232,9 +232,9 @@ const Day = ({ day, classes }: DayProps) => {
 
 export default function UnderHero() {
   return (
-    <div className=" border-t-2 border-red-600 w-full">
-      <div className="container mx-autol">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 mt-10 ">
+    <div className="border-t-2 border-red-600 w-full">
+      <div className="container mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 gap-y-8 mt-10 ">
           {days.map((day, index) => (
             <Day day={index} classes={day} key={index} />
           ))}
@@ -243,20 +243,23 @@ export default function UnderHero() {
           <p className="text-center"></p>
         </div>
       </div>
-      <section className="border-t-2 border-red-600 w-full py-8 space-y-4">
-        <div className="container mx-auto">
+      <section className="border-t-2 border-red-600 w-full py-4">
+        <div className="container mx-auto space-y-4">
           <h2 className="text-center font-bold text-2xl">ADDITIONAL INFO</h2>
           <p className="text-sm text-center">
             The above timetable represents a normal week at{" "}
             <span className="font-bold text-red-600">Stalone BJJ</span>.
+          </p>
+          <p className="text-sm text-center">
             Additionally{" "}
-            <span className="font-bold text-red-600">Open Mat</span> and{" "}
-            <span className="font-bold text-red-600">Yoga Sessions</span> are
-            frequent but depend on the professor&apos;s and coach&apos;s
-            availability. You will be notified about these additional sessoins
-            via socials and the{" "}
-            <span className="font-bold text-red-600">Stalone BJJ</span> Whatsapp
-            group.
+            <span className="font-bold text-red-600">Open Mat Sessions</span>{" "}
+            are frequent but depend on the professor&apos;s and coach&apos;s
+            availability.
+          </p>
+          <p className="text-sm text-center">
+            You will be notified about these additional sessoins via socials and
+            the <span className="font-bold text-red-600">Stalone BJJ</span>{" "}
+            Whatsapp group.
           </p>
         </div>
       </section>
