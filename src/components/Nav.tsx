@@ -62,6 +62,7 @@ export default function Nav() {
           </div>
           <div className="lg:hidden">
             <button
+              aria-label="Menu"
               className="navbar-burger flex items-center text-blue-600 p-2"
               onClick={() => setShowMenu(!showMenu)}
             >

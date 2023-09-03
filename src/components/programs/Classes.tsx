@@ -98,7 +98,11 @@ export default function Classes() {
             your goals in a positive and empowering atmosphere.
           </p>
           <div className="flex justify-center w-full">
-            <Button variant="secondary" className="border-2 border-red-600">
+            <Button
+              variant="secondary"
+              className="border-2 border-red-600"
+              aria-label="Book your free trial"
+            >
               <a href="/contact-us">BOOK YOUR FREE TRIAL</a>
             </Button>
           </div>
@@ -136,7 +140,11 @@ export default function Classes() {
             self-awareness.
           </p>
           <div className="flex justify-center w-full">
-            <Button variant="secondary" className="border-2 border-red-600">
+            <Button
+              variant="secondary"
+              className="border-2 border-red-600"
+              aria-label="Book your free trial"
+            >
               <a href="/contact-us">BOOK YOUR FREE TRIAL</a>
             </Button>
           </div>

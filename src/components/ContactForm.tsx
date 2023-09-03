@@ -167,6 +167,7 @@ export default function ContactForm() {
           )}
         />
         <Button
+          aria-label="Submit"
           type="submit"
           className="w-full border-2 border-red-600"
           variant="secondary"

@@ -33,6 +33,7 @@ export default function UnderHero() {
           </p>
           <div className="flex w-full justify-around">
             <Button
+              aria-label="Adults classes"
               className="border-2 border-red-600"
               variant="secondary"
               onClick={() => scrollToView("adults-classes")}
@@ -40,6 +41,7 @@ export default function UnderHero() {
               ADULTS
             </Button>
             <Button
+              aria-label="Childrens classes"
               className="border-2 border-red-600"
               variant="secondary"
               onClick={() => scrollToView("childrens-classes")}
@@ -47,6 +49,7 @@ export default function UnderHero() {
               CHILDREN
             </Button>
             <Button
+              aria-label="Private classes"
               className="border-2 border-red-600"
               variant="secondary"
               onClick={() => scrollToView("private-classes")}

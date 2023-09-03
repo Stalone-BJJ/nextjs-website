@@ -83,7 +83,11 @@ export default function UnderHero() {
         welcome you to our family.
       </p>
       <div className="flex justify-center w-full">
-        <Button variant="secondary" className="border-2 border-red-600">
+        <Button
+          variant="secondary"
+          className="border-2 border-red-600"
+          aria-label="Book Trial"
+        >
           <a href="/contact-us">BOOK YOUR FREE TRIAL</a>
         </Button>
       </div>
