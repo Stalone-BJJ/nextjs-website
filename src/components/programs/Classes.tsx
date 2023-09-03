@@ -4,10 +4,10 @@ export default function Classes() {
   return (
     <>
       <section
-        className="border-t-2 border-red-600 w-full px-8 py-4"
+        className="border-t-2 border-red-600 w-full py-4"
         id="adults-classes"
       >
-        <div className="sm:container mx-auto space-y-4">
+        <div className="mx-auto space-y-4 container">
           <h2 className="text-center font-bold text-2xl">ADULTS</h2>
           <p className="text-sm mb-2">
             <span className="font-bold text-red-600">
@@ -109,10 +109,10 @@ export default function Classes() {
         </div>
       </section>
       <section
-        className="border-t-2 border-red-600 w-full px-8 py-4"
+        className="border-t-2 border-red-600 w-full py-4"
         id="childrens-classes"
       >
-        <div className="sm:container mx-auto space-y-4">
+        <div className="mx-auto space-y-4 container">
           <h2 className="text-center font-bold text-2xl mb-2">
             KIDS AND TEENS
           </h2>
@@ -151,10 +151,10 @@ export default function Classes() {
         </div>
       </section>
       <section
-        className="border-t-2 border-red-600 w-full px-8 py-4"
+        className="border-t-2 border-red-600 w-full py-4"
         id="private-classes"
       >
-        <div className="sm:container mx-auto space-y-4">
+        <div className="mx-auto space-y-4 container">
           <h2 className="text-center font-bold text-2xl mb-2">
             PRIVATE TRAINING
           </h2>

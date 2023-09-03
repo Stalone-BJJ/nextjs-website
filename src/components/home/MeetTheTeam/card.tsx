@@ -19,7 +19,7 @@ export default function Card({ name, belt, description, src }: CardProps) {
       />
       <h3 className="text-lg text-center text-red-600 font-bold">{name}</h3>
       <h4>{belt}</h4>
-      <p className="text-sm m-2 text-center">{description}</p>
+      <p className="text-sm my-2 text-center">{description}</p>
     </>
   );
 }

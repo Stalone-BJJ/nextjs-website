@@ -121,17 +121,19 @@ export default function MeetTheTeam() {
   ] as const;
 
   return (
-    <section className="p-4 border-y-2 border-red-600 w-full flex flex-col items-center">
-      <h2 className="text-white text-2xl font-bold">MEET THE TEAM</h2>
-      {professors.map((professor) => (
-        <Card
-          key={professor.name}
-          name={professor.name}
-          belt={professor.belt}
-          description={professor.description}
-          src={professor.src}
-        />
-      ))}
+    <section className="py-4 border-t-2 border-red-600 w-full">
+      <div className="container flex flex-col items-center">
+        <h2 className="text-white text-2xl font-bold">MEET THE TEAM</h2>
+        {professors.map((professor) => (
+          <Card
+            key={professor.name}
+            name={professor.name}
+            belt={professor.belt}
+            description={professor.description}
+            src={professor.src}
+          />
+        ))}
+      </div>
     </section>
   );
 }

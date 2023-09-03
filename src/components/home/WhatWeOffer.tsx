@@ -4,7 +4,7 @@ import SectionWithImage from "../SectionWithImage";
 export default function WhatWeOffer() {
   return (
     <SectionWithImage classNameRef="home-what-we-offer">
-      <h2 className="font-bold text-2xl mb-4">WHAT WE OFFER</h2>
+      <h2 className="font-bold text-2xl mb-4 text-center">WHAT WE OFFER</h2>
       <div className="flex w-full mb-2 my-4">
         <div className="w-1/3 flex items-center flex-col">
           <Image
