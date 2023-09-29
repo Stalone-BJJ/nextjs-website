@@ -18,12 +18,12 @@ const days = [
     {
       position: 5,
       time: "18.00 - 19.00",
-      name: "Fundamentals gi",
+      name: "Fundamentals gi **",
     },
     {
       position: 6,
       time: "19.00 - 20.00",
-      name: "Advanced gi",
+      name: "Advanced gi **",
     },
     {
       position: 7,
@@ -132,18 +132,13 @@ const days = [
     },
     {
       position: 3,
-      time: "12.00 - 12.50",
-      name: "Kids gi",
+      time: "11:00 - 12:00",
+      name: "Yoga Session *",
     },
     {
       position: 4,
-      time: "13.00 - 14.00",
-      name: "All levels gi",
-    },
-    {
-      position: 5,
-      time: "14:00 - 15:00",
-      name: "Yoga Session",
+      time: "12.00 - 12.50",
+      name: "Kids gi",
     },
   ],
 ];
@@ -173,11 +168,13 @@ const getClassColour = (name: string) => {
     case "Early birds all levels gi":
     case "Early birds all levels no gi":
     case "Fundamentals gi":
+    case "Fundamentals gi **":
     case "Fundamentals no gi":
     case "Open mat":
     case "Women's class":
       return "bg-blue-500 text-white";
     case "Advanced gi":
+    case "Advanced gi **":
     case "Advanced no gi":
     case "Competition sparring gi":
     case "Competition training":
@@ -186,7 +183,7 @@ const getClassColour = (name: string) => {
       return "bg-purple-500 text-white";
     case "Kids gi":
       return "bg-green-500 text-white";
-    case "Yoga Session":
+    case "Yoga Session *":
       return "bg-pink-500 text-white";
     default:
       return "bg-black text-white";
@@ -245,21 +242,36 @@ export default function UnderHero() {
       </div>
       <section className="border-t-2 border-red-600 w-full py-4">
         <div className="container mx-auto space-y-4">
-          <h2 className="text-center font-bold text-2xl">ADDITIONAL INFO</h2>
+          <h2 className="text-center font-bold text-2xl">
+            ADDITIONAL INFORMATION
+          </h2>
           <p className="text-sm text-center">
-            The above timetable represents a normal week at{" "}
-            <span className="font-bold text-red-600">Stalone BJJ</span>.
+            ** On the first Monday of each month the evening classes are
+            replaced with an{" "}
+            <span className="font-bold text-red-600">
+              Adults Gi All-Levels Class
+            </span>{" "}
+            that starts at 18:30 and finishes at 20:00. These classes will be
+            reminded about via Social Media and the WhatsApp group, as well as
+            at the end of classes nearer the time. The Live Training class will
+            run as normal.
+          </p>
+          <p className="text-sm text-center">
+            * Yoga is open to all members and is included in your membership.
+            This Yoga Class is also open to all non-members for a fee of £8.00
+            per session.
           </p>
           <p className="text-sm text-center">
             Additionally{" "}
             <span className="font-bold text-red-600">Open Mat Sessions</span>{" "}
-            are frequent but depend on the professor&apos;s and coach&apos;s
-            availability.
+            are frequent but depend on the availability of the Professors and
+            Coaches.
           </p>
           <p className="text-sm text-center">
-            You will be notified about these additional sessoins via socials and
-            the <span className="font-bold text-red-600">Stalone BJJ</span>{" "}
-            Whatsapp group.
+            You will be notified about these additional sessions via Social
+            Media and the{" "}
+            <span className="font-bold text-red-600">Stalone BJJ</span> WhatsApp
+            group. Classes will also be notified at the end of each class.
           </p>
         </div>
       </section>
