@@ -2,132 +2,132 @@ const days = [
   [
     {
       position: 2,
-      time: "10.00 - 11.00",
+      time: "10:00 - 11:00",
       name: "All levels gi",
     },
     {
       position: 3,
-      time: "11.00 - 12.00",
+      time: "11:00 - 12:00",
       name: "Competition sparring gi",
     },
     {
       position: 4,
-      time: "17.00 - 17.45",
+      time: "17:00 - 17:45",
       name: "Kids gi",
     },
     {
       position: 5,
-      time: "18.00 - 19.00",
+      time: "18:00 - 19:00",
       name: "Fundamentals gi **",
     },
     {
       position: 6,
-      time: "19.00 - 20.00",
+      time: "19:00 - 20:00",
       name: "Advanced gi **",
     },
     {
       position: 7,
-      time: "20.00 - 21.00",
+      time: "20:00 - 21:00",
       name: "Live training gi",
     },
   ],
   [
     {
       position: 1,
-      time: "06.00 - 07.00",
+      time: "06:00 - 07:00",
       name: "Early birds all levels gi",
     },
     {
       position: 5,
-      time: "18.00 - 19.00",
+      time: "18:00 - 19:00",
       name: "Advanced gi",
     },
     {
       position: 6,
-      time: "19.00 - 19.30",
+      time: "19:00 - 19:30",
       name: "Live training gi",
     },
     {
       position: 7,
-      time: "19.30 - 20.30",
+      time: "19:30 - 20:30",
       name: "Fundamentals gi",
     },
   ],
   [
     {
       position: 1,
-      time: "06.00 - 07.00",
+      time: "06:00 - 07:00",
       name: "Early birds all levels no gi",
     },
     {
       position: 4,
-      time: "17.00 - 17.45",
+      time: "17:00 - 17:45",
       name: "Kids gi",
     },
     {
       position: 5,
-      time: "18.00 - 19.00",
+      time: "18:00 - 19:00",
       name: "Fundamentals no gi",
     },
     {
       position: 6,
-      time: "19.00 - 20.00",
+      time: "19:00 - 20:00",
       name: "Competition training",
     },
   ],
   [
     {
       position: 1,
-      time: "06.00 - 07.00",
+      time: "06:00 - 07:00",
       name: "Early birds all levels gi",
     },
     {
       position: 5,
-      time: "18.00 - 19.00",
+      time: "18:00 - 19:00",
       name: "Advanced no gi",
     },
     {
       position: 6,
-      time: "19.00 - 19.30",
+      time: "19:00 - 19:30",
       name: "Live training no gi",
     },
     {
       position: 7,
-      time: "19.30 - 20.30",
+      time: "19:30 - 20:30",
       name: "All levels gi",
     },
   ],
   [
     {
       position: 2,
-      time: "10.00 - 11.00",
+      time: "10:00 - 11:00",
       name: "All levels gi",
     },
     {
       position: 3,
-      time: "11.00 - 12.00",
+      time: "11:00 - 12:00",
       name: "Competition sparring gi",
     },
     {
       position: 5,
-      time: "17.30 - 18.30",
+      time: "17:30 - 18:30",
       name: "Women's class",
     },
     {
       position: 6,
-      time: "18.30 - 19.30",
+      time: "18:30 - 19:30",
       name: "All levels gi",
     },
     {
       position: 7,
-      time: "19.30 - 20.30",
+      time: "19:30 - 20:30",
       name: "Open mat",
     },
   ],
   [
     {
       position: 2,
-      time: "09.30 - 11.00",
+      time: "09:30 - 11:00",
       name: "Competition training",
     },
     {
@@ -137,7 +137,7 @@ const days = [
     },
     {
       position: 4,
-      time: "12.00 - 12.50",
+      time: "12:00 - 12:50",
       name: "Kids gi",
     },
   ],
