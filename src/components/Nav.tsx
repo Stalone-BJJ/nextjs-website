@@ -42,6 +42,13 @@ export default function Nav() {
           </span>
         </div>
       </div>
+      <div className="py-2 bg-blue-600 w-full">
+        <div className="container mx-auto text-white text-xs lg:text-sm text-center">
+          <span className="font-bold">New Year&apos;s Offer!</span> Get your
+          training included until <span className="font-bold">March 2024</span>.
+          Available both for New & Returning Members.
+        </div>
+      </div>
       <nav className="bg-gray-900 py-4 border-b-2 border-red-600">
         <div className="container flex items-center justify-between flex-wrap">
           <div className="flex items-center flex-shrink-0 text-white">
