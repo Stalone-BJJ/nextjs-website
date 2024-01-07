@@ -95,6 +95,10 @@ section.home-under-hero:before {
   background-image: url("/DSC00412.webp");
 }
 
+section.home-special-offer:before {
+  background-image: url("/DSC00002.webp");
+}
+
 section.home-our-school:before {
   background-image: url("/DSC00827.webp");
 }
