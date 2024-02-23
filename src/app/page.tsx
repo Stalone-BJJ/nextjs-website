@@ -7,10 +7,12 @@ import UnderHero from "@/components/home/UnderHero";
 import WhatWeOffer from "@/components/home/WhatWeOffer";
 
 export default function Home() {
+  const currentOffer = false;
+
   return (
     <main className="flex min-h-screen flex-col items-center">
       <Hero />
-      <SpecialOffer />
+      {currentOffer && <SpecialOffer />}
       <UnderHero />
       <OurSchool />
       <WhatWeOffer />
