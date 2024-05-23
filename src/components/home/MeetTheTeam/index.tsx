@@ -87,8 +87,8 @@ export default function MeetTheTeam() {
       belt: "IBJJF Black Belt",
       description: (
         <>
-          A current student of Professor Stalone, with over 8 years of Brazilian
-          Jiu-Jitsu experience, Coach Aaron teaches our fundamentals gi and
+          A current student of Professor Stalone, with over 9 years of Brazilian
+          Jiu-Jitsu experience, Professor Aaron leads our fundamentals gi and
           no-gi classes in our Chorley school.
         </>
       ),
@@ -101,7 +101,7 @@ export default function MeetTheTeam() {
         <>
           Another current student of Professor Stalone, with over 6 years of
           Brazilian Jiu-Jitsu experience, Coach Cheryl teaches our kids classes
-          at our Chorley school .
+          at our Chorley school.
         </>
       ),
       src: "/cheryl.jpg",
