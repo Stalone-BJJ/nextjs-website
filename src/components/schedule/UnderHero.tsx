@@ -18,12 +18,12 @@ const days = [
     {
       position: 5,
       time: "18:00 - 19:00",
-      name: "Fundamentals gi **",
+      name: "Fundamentals gi *",
     },
     {
       position: 6,
       time: "19:00 - 20:00",
-      name: "Advanced gi **",
+      name: "Advanced gi *",
     },
     {
       position: 7,
@@ -84,17 +84,17 @@ const days = [
     {
       position: 5,
       time: "18:00 - 19:00",
-      name: "Advanced no gi",
+      name: "Fundamentals gi",
     },
     {
       position: 6,
-      time: "19:00 - 19:30",
-      name: "Live training no gi",
+      time: "19:00 - 20:00",
+      name: "Advanced no gi",
     },
     {
       position: 7,
-      time: "19:30 - 20:30",
-      name: "All levels gi",
+      time: "20:00 - 21:00",
+      name: "Live training no gi",
     },
   ],
   [
@@ -126,14 +126,9 @@ const days = [
   ],
   [
     {
-      position: 2,
-      time: "09:30 - 11:00",
-      name: "Competition training",
-    },
-    {
       position: 3,
       time: "11:00 - 12:00",
-      name: "Yoga Session *",
+      name: "All levels gi",
     },
     {
       position: 4,
@@ -168,13 +163,13 @@ const getClassColour = (name: string) => {
     case "Early birds all levels gi":
     case "Early birds all levels no gi":
     case "Fundamentals gi":
-    case "Fundamentals gi **":
+    case "Fundamentals gi *":
     case "Fundamentals no gi":
     case "Open mat":
     case "Women's class":
       return "bg-blue-500 text-white";
     case "Advanced gi":
-    case "Advanced gi **":
+    case "Advanced gi *":
     case "Advanced no gi":
     case "Competition sparring gi":
     case "Competition training":
@@ -183,7 +178,7 @@ const getClassColour = (name: string) => {
       return "bg-purple-500 text-white";
     case "Kids gi":
       return "bg-green-500 text-white";
-    case "Yoga Session *":
+    case "Yoga Session **":
       return "bg-pink-500 text-white";
     default:
       return "bg-black text-white";
@@ -246,8 +241,8 @@ export default function UnderHero() {
             ADDITIONAL INFORMATION
           </h2>
           <p className="text-sm text-center">
-            ** On the first Monday of each month the evening classes are
-            replaced with an{" "}
+            * On the first Monday of each month the evening classes are replaced
+            with an{" "}
             <span className="font-bold text-red-600">
               Adults Gi All-Levels Class
             </span>{" "}
@@ -255,11 +250,6 @@ export default function UnderHero() {
             reminded about via Social Media and the WhatsApp group, as well as
             at the end of classes nearer the time. The Live Training class will
             run as normal.
-          </p>
-          <p className="text-sm text-center">
-            * Yoga is open to all members and is included in your membership.
-            This Yoga Class is also open to all non-members for a fee of £8.00
-            per session.
           </p>
           <p className="text-sm text-center">
             Additionally{" "}
