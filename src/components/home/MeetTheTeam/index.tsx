@@ -70,18 +70,6 @@ export default function MeetTheTeam() {
       src: "/larry.jpg",
     },
     {
-      name: "Professor Ian",
-      belt: "IBJJF 1st Degree Black Belt",
-      description: (
-        <>
-          Another former student of and current coach for Professor Stalone,
-          with over 10 years of Brazilian Jiu-Jitsu experience, Professor Ian
-          teaches numerous classes at our Horwich school.
-        </>
-      ),
-      src: "/ian.jpg",
-    },
-    {
       name: "Professor Ju",
       belt: "IBJJF Black Belt",
       description: (
@@ -95,8 +83,8 @@ export default function MeetTheTeam() {
       src: "/joanna.jpg",
     },
     {
-      name: "Coach Aaron",
-      belt: "IBJJF 2nd Degree Brown Belt",
+      name: "Professor Aaron",
+      belt: "IBJJF Black Belt",
       description: (
         <>
           A current student of Professor Stalone, with over 8 years of Brazilian
@@ -108,7 +96,7 @@ export default function MeetTheTeam() {
     },
     {
       name: "Coach Cheryl",
-      belt: "IBJJF 3rd Degree Purple Belt",
+      belt: "IBJJF 1st Degree Brown Belt",
       description: (
         <>
           Another current student of Professor Stalone, with over 6 years of
