@@ -6,11 +6,6 @@ const days = [
       name: "All levels gi",
     },
     {
-      position: 3,
-      time: "11:00 - 12:00",
-      name: "Competition sparring gi",
-    },
-    {
       position: 4,
       time: "17:00 - 17:45",
       name: "Kids gi",
@@ -93,7 +88,7 @@ const days = [
     },
     {
       position: 7,
-      time: "20:00 - 21:00",
+      time: "20:00 - 20:30",
       name: "Live training no gi",
     },
   ],
@@ -104,23 +99,18 @@ const days = [
       name: "All levels gi",
     },
     {
-      position: 3,
-      time: "11:00 - 12:00",
-      name: "Competition sparring gi",
-    },
-    {
       position: 5,
-      time: "17:30 - 18:30",
+      time: "18:00 - 19:00",
       name: "Women's class",
     },
     {
       position: 6,
-      time: "18:30 - 19:30",
+      time: "18:00 - 19:00",
       name: "All levels gi",
     },
     {
       position: 7,
-      time: "19:30 - 20:30",
+      time: "19:00 - 20:00",
       name: "Open mat",
     },
   ],
@@ -132,7 +122,7 @@ const days = [
     },
     {
       position: 4,
-      time: "12:00 - 12:50",
+      time: "12:00 - 12:45",
       name: "Kids gi",
     },
   ],
@@ -166,7 +156,6 @@ const getClassColour = (name: string) => {
     case "Fundamentals gi *":
     case "Fundamentals no gi":
     case "Open mat":
-    case "Women's class":
       return "bg-blue-500 text-white";
     case "Advanced gi":
     case "Advanced gi *":
@@ -178,7 +167,7 @@ const getClassColour = (name: string) => {
       return "bg-purple-500 text-white";
     case "Kids gi":
       return "bg-green-500 text-white";
-    case "Yoga Session **":
+    case "Women's class":
       return "bg-pink-500 text-white";
     default:
       return "bg-black text-white";
