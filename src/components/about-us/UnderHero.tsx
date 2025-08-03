@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ContactForm from "../ContactForm";
 import SectionWithImage from "../SectionWithImage";
 
@@ -133,7 +134,18 @@ export default function UnderHero() {
         <h2 className="text-2xl font-bold text-center my-4">
           READY TO GET STARTED?
         </h2>
-        <ContactForm />
+        <p className="text-center my-8 mx-16">
+          Our contact form is currently being updated. In the meantime, please
+          feel free to reach out to us via email at{" "}
+          <Link
+            className="underline decoration-red-600 decoration-2 hover:text-gray-400"
+            href="mailto:contact@stalonebjj.co.uk"
+          >
+            contact@stalonebjj.co.uk
+          </Link>{" "}
+          (click to open your email client).
+        </p>
+        {/* <ContactForm /> */}
       </section>
     </>
   );

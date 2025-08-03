@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ContactForm from "../ContactForm";
+import Link from "next/link";
 
 export default function UnderHero() {
   return (
@@ -67,7 +68,18 @@ export default function UnderHero() {
             <h2 className="text-center font-bold text-2xl lg:mt-8">
               GET IN TOUCH
             </h2>
-            <ContactForm />
+            <p className="text-center my-8 mx-16">
+              Our contact form is currently being updated. In the meantime,
+              please feel free to reach out to us via email at{" "}
+              <Link
+                className="underline decoration-red-600 decoration-2 hover:text-gray-400"
+                href="mailto:contact@stalonebjj.co.uk"
+              >
+                contact@stalonebjj.co.uk
+              </Link>{" "}
+              (click to open your email client).
+            </p>
+            {/* <ContactForm /> */}
           </div>
         </div>
       </section>
