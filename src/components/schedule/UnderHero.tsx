@@ -3,7 +3,7 @@ const days = [
     {
       position: 2,
       time: "10:00 - 11:00",
-      name: "All levels gi",
+      name: "All levels gi drill class",
     },
     {
       position: 4,
@@ -62,7 +62,7 @@ const days = [
     {
       position: 5,
       time: "18:00 - 19:00",
-      name: "Fundamentals no gi",
+      name: "Fundamentals gi",
     },
     {
       position: 6,
@@ -79,16 +79,11 @@ const days = [
     {
       position: 5,
       time: "18:00 - 19:00",
-      name: "Fundamentals gi",
+      name: "All levels no gi",
     },
     {
       position: 6,
-      time: "19:00 - 20:00",
-      name: "Advanced no gi",
-    },
-    {
-      position: 7,
-      time: "20:00 - 20:30",
+      time: "19:00 - 19:30",
       name: "Live training no gi",
     },
   ],
@@ -96,12 +91,12 @@ const days = [
     {
       position: 2,
       time: "10:00 - 11:00",
-      name: "All levels gi",
+      name: "All levels gi drill class",
     },
     {
       position: 5,
       time: "18:00 - 19:00",
-      name: "Women's class",
+      name: "Women's class **",
     },
     {
       position: 6,
@@ -150,6 +145,8 @@ const openDays = [
 const getClassColour = (name: string) => {
   switch (name) {
     case "All levels gi":
+    case "All levels gi drill class":
+    case "All levels no gi":
     case "Early birds all levels gi":
     case "Early birds all levels no gi":
     case "Fundamentals gi":
@@ -168,6 +165,7 @@ const getClassColour = (name: string) => {
     case "Kids gi":
       return "bg-green-500 text-white";
     case "Women's class":
+    case "Women's class **":
       return "bg-pink-500 text-white";
     default:
       return "bg-black text-white";
@@ -239,6 +237,15 @@ export default function UnderHero() {
             reminded about via Social Media and the WhatsApp group, as well as
             at the end of classes nearer the time. The Live Training class will
             run as normal.
+          </p>
+          <p className="text-sm text-center">
+            **{" "}
+            <span className="font-bold text-pink-500">
+              Women&apos;s Classes
+            </span>{" "}
+            run alongside the All Levels Gi class on Fridays from 18:00 to
+            19:00. These classes are open to all levels and are a safe and
+            comfortable environment.
           </p>
           <p className="text-sm text-center">
             Additionally{" "}
