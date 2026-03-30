@@ -35,17 +35,12 @@ const days = [
     {
       position: 5,
       time: "18:00 - 19:00",
-      name: "Advanced gi",
+      name: "All levels gi",
     },
     {
       position: 6,
       time: "19:00 - 19:30",
       name: "Live training gi",
-    },
-    {
-      position: 7,
-      time: "19:30 - 20:30",
-      name: "Fundamentals gi",
     },
   ],
   [
