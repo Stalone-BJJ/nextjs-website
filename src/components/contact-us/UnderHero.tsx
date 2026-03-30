@@ -68,7 +68,7 @@ export default function UnderHero() {
             <h2 className="text-center font-bold text-2xl lg:mt-8">
               GET IN TOUCH
             </h2>
-            <p className="text-center my-8 mx-16">
+            {/* <p className="text-center my-8 mx-16">
               Our contact form is currently being updated. In the meantime,
               please feel free to reach out to us via email at{" "}
               <Link
@@ -78,8 +78,8 @@ export default function UnderHero() {
                 contact@stalonebjj.co.uk
               </Link>{" "}
               (click to open your email client).
-            </p>
-            {/* <ContactForm /> */}
+            </p> */}
+            <ContactForm />
           </div>
         </div>
       </section>
