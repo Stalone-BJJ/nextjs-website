@@ -3,9 +3,9 @@ import Hero from "@/components/schedule/Hero";
 import UnderHero from "@/components/schedule/UnderHero";
 
 export const metadata: Metadata = {
-  title: "Schedule",
+  title: "Timetable",
   description:
-    "Schedule - Stalone BJJ - Brazilian Jiu-Jitsu in Chorley, Lancashire",
+    "Timetable - Stalone BJJ - Brazilian Jiu-Jitsu in Chorley, Lancashire",
 };
 
 export default function Schedule() {

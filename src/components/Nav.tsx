@@ -98,6 +98,14 @@ export default function Nav() {
                   Home
                 </a>
                 <a
+                  href="/schedule"
+                  className={`block mt-4 lg:inline-block lg:mt-0 mr-4 ${
+                    pathName === "/schedule" ? "text-red-600" : "text-white"
+                  }`}
+                >
+                  Timetable
+                </a>
+                <a
                   href="/about-us"
                   className={`block mt-4 lg:inline-block lg:mt-0 mr-4 ${
                     pathName === "/about-us" ? "text-red-600" : "text-white"
@@ -136,14 +144,6 @@ export default function Nav() {
                   }`}
                 >
                   Gallery
-                </a>
-                <a
-                  href="/schedule"
-                  className={`block mt-4 lg:inline-block lg:mt-0 mr-4 ${
-                    pathName === "/schedule" ? "text-red-600" : "text-white"
-                  }`}
-                >
-                  Schedule
                 </a>
                 <a
                   href="/contact-us"

@@ -41,9 +41,9 @@ export default function UnderHero() {
           SMOOTH AND ENJOYABLE LEARNING CURVE
         </h2>
         <p className="text-sm my-4">
-          The well honed class structure is the hallmark of being a former
-          Gracie Barra BJJ school. Classes start on time with a well developed
-          standardised curriculum and class structure.
+          The well honed class structure is the hallmark of being a leading BJJ
+          school. Classes start on time with a well developed standardised
+          curriculum and class structure.
         </p>
         <p className="text-sm my-4">
           As a student of Stalone BJJ Chorley you will know what is expected of
@@ -94,8 +94,8 @@ export default function UnderHero() {
         </h2>
         <p className="text-sm my-4">
           Cleanliness is a top priority at Stalone BJJ. Our school adheres to
-          the strict standard of cleanliness and hygiene set by being a former
-          Gracie Barra school.
+          the strict standard of cleanliness and hygiene set by being an
+          accredited BJJ school.
         </p>
         <p className="text-sm my-4">
           Our staff clean the facilities constantly, and all uniforms are washed
@@ -124,7 +124,7 @@ export default function UnderHero() {
           team of instructors are trained in the teaching philosophy and methods
           of Jiu-Jitsu. A legacy of over 20 years of teaching experience is at
           your service, so you don&apos;t have to worry: you and your family are
-          in great hands at Gracie Barra Chorley and Gracie Barra Horwich.
+          in great hands at Stalone BJJ Chorley.
         </p>
       </SectionWithImage>
       <section

@@ -6,10 +6,7 @@ export default function UnderHero() {
       <div className="container py-8 space-y-8">
         <h2 className="text-center font-bold text-2xl">HOW IT ALL STARTED</h2>
         <p className="text-sm">
-          <span className="font-bold text-red-600">
-            Formerly Gracie Barra Chorley,
-          </span>{" "}
-          we were founded in 2017 by{" "}
+          Founded in 2017 by{" "}
           <span className="font-bold text-red-600">Professor Stalone,</span> a
           passionate practitioner and dedicated instructor in the art of
           Brazilian Jiu-Jitsu. Our academy has quickly become a hub for martial

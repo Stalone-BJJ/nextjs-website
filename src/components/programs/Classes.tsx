@@ -126,9 +126,8 @@ export default function Classes() {
           <p className="text-sm mb-2">
             Our instructors are trained to interact and offer gentle correction
             for children and teens who practice the art of Jiu-Jitsu. Children
-            over the age of five can begin their training at either of our
-            Gracie Barra Schools, experiencing the true power of brotherhood and
-            integrity.
+            over the age of five can begin their training at either of our BJJ
+            Schools, experiencing the true power of brotherhood and integrity.
           </p>
           <p className="text-sm mb-2">
             The programme is structured similarly to adult courses, with
