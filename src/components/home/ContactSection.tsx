@@ -18,7 +18,7 @@ export default function ContactSection() {
       id="contact-form"
     >
       <h2 className="text-2xl font-bold text-center">CONTACT US</h2>
-      <p className="text-center my-8 mx-16">
+      {/* <p className="text-center my-8 mx-16">
         Our contact form is currently being updated. In the meantime, please
         feel free to reach out to us via email at{" "}
         <Link
@@ -28,8 +28,8 @@ export default function ContactSection() {
           contact@stalonebjj.co.uk
         </Link>{" "}
         (click to open your email client).
-      </p>
-      {/* <ContactForm /> */}
+      </p> */}
+      <ContactForm />
     </section>
   );
 }
