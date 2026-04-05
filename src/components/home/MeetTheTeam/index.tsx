@@ -1,4 +1,5 @@
-import Card from "./card";
+import SectionHeading from "../SectionHeading";
+import TeamMemberCard from "./card";
 
 export default function MeetTheTeam() {
   const professors = [
@@ -109,18 +110,24 @@ export default function MeetTheTeam() {
   ] as const;
 
   return (
-    <section className="py-4 border-t-2 border-red-600 w-full">
-      <div className="container flex flex-col items-center">
-        <h2 className="text-white text-2xl font-bold">MEET THE TEAM</h2>
-        {professors.map((professor) => (
-          <Card
-            key={professor.name}
-            name={professor.name}
-            belt={professor.belt}
-            description={professor.description}
-            src={professor.src}
-          />
-        ))}
+    <section className="py-16 lg:py-24 border-t-2 border-red-600 w-full bg-background">
+      <div className="container flex max-w-5xl flex-col">
+        <SectionHeading
+          eyebrow="Coaches"
+          subtitle="Experienced black belts and dedicated coaches — here to help you reach your goals on the mats."
+          title="Meet the team"
+        />
+        <div className="flex flex-col gap-6">
+          {professors.map((professor) => (
+            <TeamMemberCard
+              key={professor.name}
+              name={professor.name}
+              belt={professor.belt}
+              description={professor.description}
+              src={professor.src}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

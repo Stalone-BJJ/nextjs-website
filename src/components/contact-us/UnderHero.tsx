@@ -1,87 +1,87 @@
 import Image from "next/image";
-import ContactForm from "../ContactForm";
 import Link from "next/link";
+
+import ContactFormSection from "../ContactFormSection";
+import SectionHeading from "../home/SectionHeading";
+import { Card, CardContent } from "../ui/card";
 
 export default function UnderHero() {
   return (
     <>
-      <section className="border-t-2 border-red-600 w-full">
-        <div className="space-y-4 my-8 container">
-          <h2 className="text-2xl font-bold text-center">LOCATION</h2>
-          <p className="text-sm">
-            <span className="font-bold text-red-600">
-              Stalone Brazilian Jiu-Jitsu Academy
-            </span>{" "}
-            Chorley is strategically located, offering both convenience and
-            accessibility to martial arts enthusiasts. Situated in the heart of
-            Chorley, a vibrant town in Lancashire, the facility benefits from
-            its central location.
-          </p>
-          <p className="text-sm">
-            Chorley&apos;s well-developed transportation network ensures easy
-            access for individuals coming from various directions. The facility
-            is within walking distance from the Chorley train station, making it
-            accessible to those arriving by train.
-          </p>
-          <p className="text-sm">
-            Additionally, several bus routes connect the town to neighboring
-            areas, further enhancing the ease of travel. For those arriving by
-            car, ample parking facilities are available nearby, eliminating any
-            worries about parking space.
-          </p>
-          <p className="text-sm">
-            Overall,{" "}
-            <span className="font-bold text-red-600">
-              Stalone Brazilian Jiu-Jitsu Academy&apos;s
-            </span>{" "}
-            prime location and excellent travel links make it a convenient
-            destination for individuals looking to engage in Brazilian Jiu-Jitsu
-            training in the Chorley area.
-          </p>
+      <section className="w-full border-t-2 border-red-600 bg-background py-12 lg:py-16">
+        <div className="container max-w-4xl">
+          <SectionHeading
+            eyebrow="Find us"
+            subtitle="Central Chorley with strong transport links — train, bus, and nearby parking."
+            title="Location"
+          />
+          <Card className="border-red-600 bg-card shadow-md">
+            <CardContent className="space-y-4 pt-6 text-sm leading-relaxed text-zinc-300 lg:text-[15px]">
+              <p>
+                <span className="font-semibold text-red-500">
+                  Stalone Brazilian Jiu-Jitsu Academy
+                </span>{" "}
+                Chorley is strategically located for martial arts enthusiasts.
+                Situated in the heart of Chorley, the facility benefits from its
+                central location.
+              </p>
+              <p>
+                Chorley&apos;s transport network offers easy access from many
+                directions. The facility is within walking distance of Chorley
+                train station. Bus routes connect the town to neighbouring areas,
+                and there is ample parking nearby for those arriving by car.
+              </p>
+              <p>
+                Overall,{" "}
+                <span className="font-semibold text-red-500">
+                  Stalone Brazilian Jiu-Jitsu Academy&apos;s
+                </span>{" "}
+                location and travel links make it a convenient place to train
+                Brazilian Jiu-Jitsu in the Chorley area.
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </section>
-      <section className="border-t-2 border-red-600 w-full">
-        <div className="lg:flex-row flex flex-col gap-x-8 lg:container">
-          <div className="text-center flex-1 container my-8">
-            <h2 className="text-center font-bold text-2xl">WHERE TO FIND US</h2>
-            <p className="text-sm text-center my-4">
-              Click on the map below to be taken to Google Maps which will
-              provide more than ample directions to our school.
-            </p>
-            <a
-              className="mx-auto inline-flex"
-              target="_blank"
-              href="https://www.google.com/maps/place/Unit+5,+Stalone+Brazilian+Jiu+Jitsu+Academy,+Matrix+house,+Friday+St,+Chorley+PR6+0AA/@53.654125,-2.6261,17z/data=!4m6!3m5!1s0x487b0c5d34f6f63b:0xc8d758223612b664!8m2!3d53.654125!4d-2.6261!16s%2Fg%2F11dftpyprz"
-            >
-              <Image
-                alt="Stalone BJJ Map - Link to Google Maps"
-                width={500}
-                height={500}
-                src="/map.jpg"
-              />
-            </a>
-            <p className="text-xs text-center mt-2">
-              Stalone BJJ is not affiliated with Google Maps.
-            </p>
-          </div>
-          <div className="flex-1 mb-8 space-y-4">
-            <h2 className="text-center font-bold text-2xl lg:mt-8">
-              GET IN TOUCH
-            </h2>
-            {/* <p className="text-center my-8 mx-16">
-              Our contact form is currently being updated. In the meantime,
-              please feel free to reach out to us via email at{" "}
-              <Link
-                className="underline decoration-red-600 decoration-2 hover:text-gray-400"
-                href="mailto:contact@stalonebjj.co.uk"
-              >
-                contact@stalonebjj.co.uk
-              </Link>{" "}
-              (click to open your email client).
-            </p> */}
-            <ContactForm />
+
+      <section className="w-full border-t-2 border-red-600 bg-background py-12 lg:py-16">
+        <div className="container max-w-6xl">
+          <SectionHeading
+            eyebrow="Directions"
+            subtitle="Tap the map for Google Maps directions to the academy."
+            title="Where to find us"
+          />
+          <div className="flex justify-center">
+            <Card className="w-full max-w-[500px] overflow-hidden border-red-600 bg-card shadow-md">
+              <CardContent className="p-4 sm:p-5">
+                <Link
+                  className="inline-flex w-full flex-col items-center gap-3"
+                  href="https://www.google.com/maps/place/Unit+5,+Stalone+Brazilian+Jiu+Jitsu+Academy,+Matrix+house,+Friday+St,+Chorley+PR6+0AA/@53.654125,-2.6261,17z/data=!4m6!3m5!1s0x487b0c5d34f6f63b:0xc8d758223612b664!8m2!3d53.654125!4d-2.6261!16s%2Fg%2F11dftpyprz"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Image
+                    alt="Map of Stalone BJJ Chorley — open in Google Maps"
+                    className="h-auto w-full rounded-md border border-red-600"
+                    height={500}
+                    src="/map.jpg"
+                    width={500}
+                  />
+                  <span className="text-xs text-zinc-500">
+                    Stalone BJJ is not affiliated with Google Maps.
+                  </span>
+                </Link>
+              </CardContent>
+            </Card>
           </div>
         </div>
+      </section>
+
+      <section
+        className="border-t-2 border-red-600 py-16 lg:py-24 w-full bg-background"
+        id="contact-form"
+      >
+        <ContactFormSection />
       </section>
     </>
   );

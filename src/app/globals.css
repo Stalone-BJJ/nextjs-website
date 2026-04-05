@@ -4,67 +4,68 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 224 71.4% 4.1%;
+    /* Soft light gray page — eases contrast vs black cards + red accents */
+    --background: 0, 0%, 85%;
+    --foreground: 240 6% 11%;
 
-    --muted: 220 14.3% 95.9%;
-    --muted-foreground: 220 8.9% 46.1%;
+    --muted: 240 5% 93%;
+    --muted-foreground: 240 4% 36%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 224 71.4% 4.1%;
+    --popover: 240 5% 96%;
+    --popover-foreground: 240 6% 11%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 224 71.4% 4.1%;
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 96%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
+    --border: 240 4% 82%;
+    --input: 240 4% 88%;
 
-    --primary: 220.9 39.3% 11%;
-    --primary-foreground: 210 20% 98%;
+    --primary: 0 72% 44%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 14.3% 95.9%;
-    --secondary-foreground: 220.9 39.3% 11%;
+    --secondary: 240 5% 88%;
+    --secondary-foreground: 240 6% 11%;
 
-    --accent: 220 14.3% 95.9%;
-    --accent-foreground: 220.9 39.3% 11%;
+    --accent: 240 5% 88%;
+    --accent-foreground: 240 6% 11%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 20% 98%;
+    --destructive: 0 72% 44%;
+    --destructive-foreground: 0 0% 100%;
 
-    --ring: 217.9 10.6% 64.9%;
+    --ring: 0 72% 44%;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 224 71.4% 4.1%;
-    --foreground: 210 20% 98%;
+    --background: 0 0% 6%;
+    --foreground: 0 0% 96%;
 
-    --muted: 215 27.9% 16.9%;
-    --muted-foreground: 217.9 10.6% 64.9%;
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 62%;
 
-    --popover: 224 71.4% 4.1%;
-    --popover-foreground: 210 20% 98%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 96%;
 
-    --card: 224 71.4% 4.1%;
-    --card-foreground: 210 20% 98%;
+    --card: 0 0% 9%;
+    --card-foreground: 0 0% 96%;
 
-    --border: 215 27.9% 16.9%;
-    --input: 215 27.9% 16.9%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
 
-    --primary: 210 20% 98%;
-    --primary-foreground: 220.9 39.3% 11%;
+    --primary: 0 72% 48%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 215 27.9% 16.9%;
-    --secondary-foreground: 210 20% 98%;
+    --secondary: 0 0% 13%;
+    --secondary-foreground: 0 0% 96%;
 
-    --accent: 215 27.9% 16.9%;
-    --accent-foreground: 210 20% 98%;
+    --accent: 0 0% 16%;
+    --accent-foreground: 0 0% 96%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 85.7% 97.3%;
+    --destructive: 0 65% 42%;
+    --destructive-foreground: 0 0% 100%;
 
-    --ring: 215 27.9% 16.9%;
+    --ring: 0 72% 48%;
   }
 }
 
@@ -75,74 +76,4 @@
   body {
     @apply bg-background text-foreground;
   }
-}
-
-section#section-with-image:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-position: center;
-  background-size: cover;
-  z-index: -1;
-  background-repeat: no-repeat;
-  opacity: 0.2;
-}
-
-section.home-under-hero:before {
-  background-image: url("/DSC00412.webp");
-}
-
-section.home-special-offer:before {
-  background-image: url("/DSC00002.webp");
-}
-
-section.home-our-school:before {
-  background-image: url("/DSC00827.webp");
-}
-
-section.home-what-we-offer:before {
-  background-image: url("/DSC00292.webp");
-}
-
-section.about-us-under-hero-first:before {
-  background-image: url("/DSC00012.webp");
-}
-
-section.about-us-under-hero-second:before {
-  background-image: url("/DSC01109.webp");
-}
-
-section.about-us-under-hero-third:before {
-  background-image: url("/DSC00786.webp");
-}
-
-section.about-us-under-hero-fourth:before {
-  background-image: url("/DSC00007.webp");
-}
-
-section.about-us-under-hero-fifth:before {
-  background-image: url("/DSC01199.webp");
-}
-
-section.about-us-under-hero-sixth:before {
-  background-image: url("/DSC00827.webp");
-}
-
-section.about-us-under-hero-seventh:before {
-  background-image: url("/DSC00590.webp");
-}
-
-section.about-us-under-hero-eighth:before {
-  background-image: url("/DSC00002.webp");
-}
-
-section.about-us-under-hero-ninth:before {
-  background-image: url("/DSC00005.webp");
-}
-
-section.programs-under-hero:before {
-  background-image: url("/DSC01745.webp");
 }

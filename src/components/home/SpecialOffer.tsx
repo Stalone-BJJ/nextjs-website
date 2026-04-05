@@ -14,11 +14,11 @@ export default function SpecialOffer() {
 
   return (
     <SectionWithImage classNameRef="home-special-offer">
-      <div className="w-full text-center my-8 space-y-4">
+      <div className="w-full text-center my-8 space-y-4 text-neutral-900">
         <h2 className="mx-auto text-2xl font-bold">
           NEW YEAR&apos;S OFFER 2024
         </h2>
-        <p className="text-center bold italic">
+        <p className="text-center italic text-neutral-700">
           Start the new year in the best way possible.
         </p>
         <div className="text-center">

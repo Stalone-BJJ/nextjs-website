@@ -18,7 +18,7 @@ export default function Gallery() {
   };
 
   return (
-    <div className="sm:container mx-auto my-8 p-4 sm:p-0">
+    <div className="container max-w-6xl mx-auto my-8 lg:my-12 p-4 sm:p-6 lg:p-8">
       <figure data-behold-id="xM3hlt47kIo8RvsODLGZ"></figure>
       <Script
         onReady={onReady}

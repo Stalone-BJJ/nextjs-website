@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Programs() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <main className="flex min-h-screen w-full flex-col items-center">
       <Hero />
       <UnderHero />
       <Classes />
