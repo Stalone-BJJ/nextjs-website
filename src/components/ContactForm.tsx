@@ -23,6 +23,8 @@ import { Button } from "./ui/button";
 import { useState } from "react";
 import Link from "next/link";
 
+import { cn } from "@/lib/utils";
+
 interface FormValues {
   name: string;
   number: string;
@@ -31,7 +33,12 @@ interface FormValues {
   info: string;
 }
 
-export default function ContactForm() {
+type ContactFormProps = {
+  /** When true, omit outer container sizing (e.g. nested inside a card). */
+  embedded?: boolean;
+};
+
+export default function ContactForm({ embedded = false }: ContactFormProps) {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const { reset } = useForm();
 
@@ -69,11 +76,18 @@ export default function ContactForm() {
     }
   };
 
+  const embeddedFieldStyles = embedded
+    ? "[&_label]:text-zinc-200 [&_p.text-sm]:text-zinc-500 [&_input]:bg-white [&_input]:text-neutral-900 [&_textarea]:bg-white [&_textarea]:text-neutral-900 [&_button[type=button]]:bg-white [&_button[type=button]]:text-neutral-900"
+    : "";
+
   return !showSuccessMessage ? (
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-4 container"
+        className={cn(
+          embedded ? "space-y-4 w-full" : "space-y-4 container max-w-2xl py-4",
+          embeddedFieldStyles
+        )}
       >
         <FormField
           control={form.control}
@@ -172,15 +186,21 @@ export default function ContactForm() {
         <Button
           aria-label="Submit"
           type="submit"
-          className="w-full border-2 border-red-600"
-          variant="secondary"
+          className="w-full"
+          variant="default"
         >
           Submit
         </Button>
       </form>
     </Form>
   ) : (
-    <div className="container space-y-2 text-sm text-center">
+    <div
+      className={cn(
+        embedded
+          ? "space-y-2 text-sm text-center py-2 text-zinc-200"
+          : "container max-w-2xl mx-auto space-y-2 text-sm text-center py-4"
+      )}
+    >
       <h3 className="mt-2 text-xl font-bold italic text-red-600">
         THANK YOU FOR YOUR INTEREST
       </h3>
@@ -195,14 +215,14 @@ export default function ContactForm() {
         If you still haven&apos;t received an email please contact us directly
         at{" "}
         <Link
-          className="underline decoration-red-600 decoration-2 hover:text-gray-400"
+          className="underline decoration-red-600 decoration-2 hover:text-red-400 transition-colors"
           href="mailto:contact@stalonebjj.co.uk"
         >
           contact@stalonebjj.co.uk
         </Link>{" "}
         or you can call us on{" "}
         <Link
-          className="underline decoration-red-600 decoration-2 hover:text-gray-400"
+          className="underline decoration-red-600 decoration-2 hover:text-red-400 transition-colors"
           href="tel:07540586726"
         >
           07540 586726

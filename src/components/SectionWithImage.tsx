@@ -9,13 +9,12 @@ export default function SectionWithImage({
   classNameRef,
   children,
 }: SectionWithImageProps) {
-  // The classNameRef is what to reference from the globals.css file for the background image
   return (
     <section
-      className={`border-t-2 border-red-600 text-white w-full py-4 flex flex-col items-center bg-slate-950 relative z-10 ${classNameRef}`}
+      className={`border-t-2 border-red-600 text-foreground w-full py-10 lg:py-14 flex flex-col items-center bg-background relative z-10 ${classNameRef}`}
       id="section-with-image"
     >
-      <div className="container">{children}</div>
+      <div className="container max-w-5xl">{children}</div>
     </section>
   );
 }

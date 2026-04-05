@@ -1,5 +1,6 @@
 import ContactSection from "@/components/home/ContactSection";
 import Hero from "@/components/home/Hero";
+import HomeStats from "@/components/home/HomeStats";
 import MeetTheTeam from "@/components/home/MeetTheTeam";
 import SpecialOffer from "@/components/home/SpecialOffer";
 import OurSchool from "@/components/home/OurSchool";
@@ -10,8 +11,9 @@ export default function Home() {
   const currentOffer = false;
 
   return (
-    <main className="flex min-h-screen flex-col items-center">
+    <main className="flex min-h-screen w-full flex-col items-center">
       <Hero />
+      <HomeStats />
       {currentOffer && <SpecialOffer />}
       <UnderHero />
       <OurSchool />

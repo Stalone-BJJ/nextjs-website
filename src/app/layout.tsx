@@ -221,8 +221,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark">
+      <body
+        className={`${inter.className} min-h-screen bg-background text-foreground antialiased`}
+      >
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
           <Nav />
           {children}
           <Footer />
